@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="book">
+        <input type="checkbox" id="c1">
+        <input type="checkbox" id="c2">
+        <input type="checkbox" id="c3">
+        <div id="cover">
+            <img src="https://images.pexels.com/photos/7214434/pexels-photo-7214434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="flip-book">
+            <div class="flip" id="p1">
+                <div class="back">
+                    <img src="https://images.pexels.com/photos/1114797/pexels-photo-1114797.jpeg?cs=srgb&dl=pexels-angele-j-1114797.jpg&fm=jpg" alt="">
+                    <label  for="c1" class="back-btn">Before</label>
+                </div>
+                <div class="front">
+                    <h2>Apple</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt consectetur iusto sint architecto beatae fuga, quasi, repellendus tempora cum eaque? Incidunt modi laudantium fugit nostrum ipsam consectetur. Illum, dolorum!</p>
+                    <label for="c1" class="next-btn">NEXT</label>
+                </div>
+            </div>
+
+            <div class="flip" id="p2">
+                <div class="back">
+                    <img src="https://images.pexels.com/photos/1998630/pexels-photo-1998630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <label for="c2" class="back-btn">Before</label>
+                </div>
+                <div class="front">
+                    <h2>Orange</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt consectetur iusto sint architecto beatae fuga, quasi, repellendus tempora cum eaque? Incidunt modi laudantium fugit nostrum ipsam consectetur. Illum, dolorum!</p>
+                    <label for="c2" class="next-btn">NEXT</label>
+                </div>
+            </div>
+            
+            <div class="flip" id="p3">
+                <div class="back">
+                    <label for="c3" class="back-btn">Before</label>
+                </div>
+                <div class="front">
+                    <h2>strawberry</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt consectetur iusto sint architecto beatae fuga, quasi, repellendus tempora cum eaque? Incidunt modi laudantium fugit nostrum ipsam consectetur. Illum, dolorum!</p>
+                    <label for="c3" class="next-btn">NEXT</label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</body>
+</html>
